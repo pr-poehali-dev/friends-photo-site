@@ -270,7 +270,7 @@ export default function Index() {
   const allTags = ["все", ...Array.from(new Set(PHOTOS.flatMap((p) => p.tags)))];
   const filteredPhotos = filter === "все" ? PHOTOS : PHOTOS.filter((p) => p.tags.includes(filter));
 
-  const marqueeItems = ["КАДР", "ФОТОГРАФИЯ", "ИСКУССТВО", "МОМЕНТ", "КАДР", "ФОТОГРАФИЯ", "ИСКУССТВО", "МОМЕНТ"];
+  const marqueeItems = ["KSS", "ФОТОГРАФИЯ", "ИСКУССТВО", "МОМЕНТ", "KSS", "ФОТОГРАФИЯ", "ИСКУССТВО", "МОМЕНТ"];
 
   return (
     <div className="min-h-screen noise-bg" style={{ background: "var(--dark)" }}>
@@ -280,7 +280,7 @@ export default function Index() {
         style={{ background: "rgba(10,9,6,0.85)", backdropFilter: "blur(12px)", borderBottom: "1px solid #1a1a1a" }}
       >
         <div className="flex items-center gap-2">
-          <span className="font-display text-2xl font-bold tracking-widest" style={{ color: "var(--warm)" }}>КАДР</span>
+          <span className="font-display text-2xl font-bold tracking-widest" style={{ color: "var(--warm)" }}>KSS</span>
           <span className="font-mono text-xs px-1.5 py-0.5" style={{ background: "var(--neon)", color: "var(--dark)" }}>β</span>
         </div>
         <div className="flex items-center gap-1">
@@ -329,10 +329,10 @@ export default function Index() {
 
               <h1
                 className="font-display font-bold leading-none mb-2 glitch-text fade-in-up stagger-2"
-                data-text="КАДР"
+                data-text="KSS"
                 style={{ fontSize: "clamp(80px, 18vw, 240px)", color: "var(--warm)", letterSpacing: "-0.02em" }}
               >
-                КАДР
+                KSS
               </h1>
 
               <div className="fade-in-up stagger-3 flex items-start gap-6">
@@ -423,7 +423,7 @@ export default function Index() {
             <div className="max-w-3xl">
               <p className="font-mono text-xs tracking-[0.3em] mb-4" style={{ color: "var(--neon)" }}>— ПРИСОЕДИНЯЙСЯ</p>
               <h2 className="font-display text-5xl md:text-7xl font-bold leading-none mb-8" style={{ color: "var(--warm)" }}>
-                ТВОЙ КАДР<br />
+                ТВОЙ KSS<br />
                 <span className="font-serif italic font-light" style={{ color: "#666" }}>ждёт своих зрителей</span>
               </h2>
               <p className="font-serif text-xl mb-10" style={{ color: "#888", maxWidth: "480px" }}>
@@ -441,7 +441,7 @@ export default function Index() {
 
           {/* FOOTER */}
           <footer className="px-6 md:px-16 py-8 flex items-center justify-between flex-wrap gap-4" style={{ borderTop: "1px solid #1a1a1a" }}>
-            <span className="font-display text-xl font-bold" style={{ color: "var(--warm)" }}>КАДР</span>
+            <span className="font-display text-xl font-bold" style={{ color: "var(--warm)" }}>KSS</span>
             <span className="font-mono text-xs" style={{ color: "#444" }}>2026 — Фотографическое сообщество</span>
           </footer>
         </div>
