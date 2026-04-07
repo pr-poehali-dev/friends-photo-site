@@ -514,6 +514,31 @@ export default function Index() {
             </div>
           </div>
 
+          {/* MANIFESTO */}
+          <section className="px-6 md:px-16 py-20 relative overflow-hidden" style={{ background: "#0d0c0a" }}>
+            <div className="diagonal-line" style={{ left: "8%", height: "100%", top: 0 }} />
+            <div className="diagonal-line" style={{ right: "12%", height: "80%", top: "10%" }} />
+            <div className="max-w-4xl mx-auto text-center">
+              <p className="font-mono text-xs tracking-[0.4em] mb-8" style={{ color: "var(--neon)" }}>— О НАС</p>
+              <blockquote
+                className="font-serif leading-relaxed"
+                style={{ fontSize: "clamp(1.2rem, 2.5vw, 1.8rem)", color: "#c8bfb0" }}
+              >
+                KSS — это не просто люди, это{" "}
+                <em style={{ color: "var(--neon)", fontStyle: "italic" }}>семья</em>,
+                которые всегда поддержат и помогут друг другу, протянут руку помощи, где всегда слышен смех и радость.
+                Это то место, в котором каждый важен и вкладывает частичку себя.
+                Каждое фото — это воспоминания, которые важно не забывать.
+              </blockquote>
+              <p
+                className="font-display text-3xl md:text-4xl font-bold mt-10 tracking-widest"
+                style={{ color: "var(--neon)" }}
+              >
+                ЛЮБЛЮ ВАС ❤️
+              </p>
+            </div>
+          </section>
+
           {/* FEATURED */}
           <section className="px-6 md:px-16 py-20 max-w-7xl mx-auto">
             <div className="flex items-end justify-between mb-12 flex-wrap gap-4">
