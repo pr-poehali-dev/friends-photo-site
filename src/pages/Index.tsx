@@ -338,7 +338,7 @@ export default function Index() {
               <div className="fade-in-up stagger-3 flex items-start gap-6">
                 <div style={{ width: "3px", height: "80px", background: "var(--neon)", flexShrink: 0, marginTop: "4px" }} />
                 <p className="font-serif text-2xl md:text-3xl leading-relaxed" style={{ color: "#b0a898", maxWidth: "500px" }}>
-                  Место, где каждый снимок — это <em>история</em>. Делитесь, обсуждайте, вдохновляйтесь.
+                  Место, где каждый снимок — наша история. <em>История нашей семьи.</em>
                 </p>
               </div>
 
